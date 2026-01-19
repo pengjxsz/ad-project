@@ -1,0 +1,11 @@
+
+package = io.xa.sigad
+headers = iosAppkitWrapper.h
+#import "SigAD_App-Swift.h"
+language = Objective-C
+excludeDependentModules = locale
+excludedTypes = locale_t
+excludedFunctions = localeconv
+
+#compilerOpts = -I${CONFIGURATION_BUILD_DIR}/Debug-iphoneos/iosApp.build/DerivedSources
+#linkerOpts = -framework Foundation -framework UIKit
