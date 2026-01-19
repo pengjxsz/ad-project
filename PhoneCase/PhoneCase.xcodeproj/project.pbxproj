@@ -1,0 +1,894 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F7A779D2EAF4A3700D25078 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7A779C2EAF4A3700D25078 /* Security.framework */; };
+		1F7A779F2EAF4A3E00D25078 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7A779E2EAF4A3E00D25078 /* CoreBluetooth.framework */; };
+		1F7A77A12EAF4A4500D25078 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7A77A02EAF4A4500D25078 /* UIKit.framework */; };
+		30DFD94D2EEAB45F00F6D8C9 /* PhoneShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DFD9472EEAB45F00F6D8C9 /* PhoneShell.framework */; };
+		30DFD94E2EEAB45F00F6D8C9 /* PhoneShell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30DFD9472EEAB45F00F6D8C9 /* PhoneShell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F7A6CD52EAF039E00D25078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7A6CB12EAF039D00D25078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7A6CB82EAF039D00D25078;
+			remoteInfo = PhoneCase;
+		};
+		1F7A6CDF2EAF039E00D25078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7A6CB12EAF039D00D25078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7A6CB82EAF039D00D25078;
+			remoteInfo = PhoneCase;
+		};
+		30DFD94B2EEAB45F00F6D8C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7A6CB12EAF039D00D25078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30DFD9462EEAB45F00F6D8C9;
+			remoteInfo = PhoneShellLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30DFD9522EEAB45F00F6D8C9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				30DFD94E2EEAB45F00F6D8C9 /* PhoneShell.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F7A6CB92EAF039D00D25078 /* PhoneCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7A6CD42EAF039E00D25078 /* PhoneCaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneCaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7A6CDE2EAF039E00D25078 /* PhoneCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneCaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7A779C2EAF4A3700D25078 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1F7A779E2EAF4A3E00D25078 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		1F7A77A02EAF4A4500D25078 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30DFD9472EEAB45F00F6D8C9 /* PhoneShell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneShell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1F7A6CE62EAF039E00D25078 /* Exceptions for "PhoneCase" folder in "PhoneCase" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Modules/DataSigner.m,
+				Modules/ECCKeyGenerator.m,
+				Modules/PhoneShell.m,
+				"Supporting Flies/BLE/Framework/XTCommonUtils.m",
+				"Supporting Flies/BLE/Framework/XTImageDitherUtils.m",
+				"Supporting Flies/BLE/NFCHelper/NFCHelper.m",
+				"Supporting Flies/BLE/NFCHelper/XTDeviceConfig.m",
+				"Supporting Flies/Info.plist",
+				"Supporting Flies/XTMBManager/MBProgressHUD.m",
+				"Supporting Flies/XTMBManager/UIImage+Gif.m",
+				"Supporting Flies/XTMBManager/XTMBManager.m",
+			);
+			target = 1F7A6CB82EAF039D00D25078 /* PhoneCase */;
+		};
+		30DFD9922EEABD8200F6D8C9 /* Exceptions for "PhoneCase" folder in "PhoneShell" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Modules/DataSigner.m,
+				Modules/ECCKeyGenerator.m,
+				Modules/PhoneShell.m,
+				"Supporting Flies/BLE/Framework/BleProtocol/libBleProtocol.a",
+				"Supporting Flies/BLE/Framework/libFMCompress.a",
+				"Supporting Flies/BLE/Framework/XTCommonUtils.m",
+				"Supporting Flies/BLE/Framework/XTImageDitherUtils.m",
+				"Supporting Flies/BLE/NFCHelper/NFCHelper.m",
+				"Supporting Flies/BLE/NFCHelper/XTDeviceConfig.m",
+				"Supporting Flies/XTMBManager/MBProgressHUD.m",
+				"Supporting Flies/XTMBManager/UIImage+Gif.m",
+				"Supporting Flies/XTMBManager/XTMBManager.m",
+			);
+			target = 30DFD9462EEAB45F00F6D8C9 /* PhoneShell */;
+		};
+		30DFD9942EEABE8900F6D8C9 /* Exceptions for "PhoneCase" folder in "PhoneCaseUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Supporting Flies/BLE/Framework/BleProtocol/libBleProtocol.a",
+			);
+			target = 1F7A6CDD2EAF039E00D25078 /* PhoneCaseUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1F7A6CBB2EAF039D00D25078 /* PhoneCase */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1F7A6CE62EAF039E00D25078 /* Exceptions for "PhoneCase" folder in "PhoneCase" target */,
+				30DFD9942EEABE8900F6D8C9 /* Exceptions for "PhoneCase" folder in "PhoneCaseUITests" target */,
+				30DFD9922EEABD8200F6D8C9 /* Exceptions for "PhoneCase" folder in "PhoneShell" target */,
+			);
+			path = PhoneCase;
+			sourceTree = "<group>";
+		};
+		1F7A6CD72EAF039E00D25078 /* PhoneCaseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhoneCaseTests;
+			sourceTree = "<group>";
+		};
+		1F7A6CE12EAF039E00D25078 /* PhoneCaseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhoneCaseUITests;
+			sourceTree = "<group>";
+		};
+		30DFD9482EEAB45F00F6D8C9 /* PhoneShell */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhoneShell;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F7A6CB62EAF039D00D25078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7A77A12EAF4A4500D25078 /* UIKit.framework in Frameworks */,
+				1F7A779F2EAF4A3E00D25078 /* CoreBluetooth.framework in Frameworks */,
+				30DFD94D2EEAB45F00F6D8C9 /* PhoneShell.framework in Frameworks */,
+				1F7A779D2EAF4A3700D25078 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7A6CD12EAF039E00D25078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7A6CDB2EAF039E00D25078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DFD9442EEAB45F00F6D8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7A6CB02EAF039D00D25078 = {
+			isa = PBXGroup;
+			children = (
+				1F7A6CBB2EAF039D00D25078 /* PhoneCase */,
+				1F7A6CD72EAF039E00D25078 /* PhoneCaseTests */,
+				1F7A6CE12EAF039E00D25078 /* PhoneCaseUITests */,
+				30DFD9482EEAB45F00F6D8C9 /* PhoneShell */,
+				1F7A779B2EAF4A3700D25078 /* Frameworks */,
+				1F7A6CBA2EAF039D00D25078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F7A6CBA2EAF039D00D25078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F7A6CB92EAF039D00D25078 /* PhoneCase.app */,
+				1F7A6CD42EAF039E00D25078 /* PhoneCaseTests.xctest */,
+				1F7A6CDE2EAF039E00D25078 /* PhoneCaseUITests.xctest */,
+				30DFD9472EEAB45F00F6D8C9 /* PhoneShell.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F7A779B2EAF4A3700D25078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F7A77A02EAF4A4500D25078 /* UIKit.framework */,
+				1F7A779E2EAF4A3E00D25078 /* CoreBluetooth.framework */,
+				1F7A779C2EAF4A3700D25078 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30DFD9422EEAB45F00F6D8C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F7A6CB82EAF039D00D25078 /* PhoneCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7A6CE72EAF039E00D25078 /* Build configuration list for PBXNativeTarget "PhoneCase" */;
+			buildPhases = (
+				1F7A6CB52EAF039D00D25078 /* Sources */,
+				1F7A6CB62EAF039D00D25078 /* Frameworks */,
+				1F7A6CB72EAF039D00D25078 /* Resources */,
+				30DFD9522EEAB45F00F6D8C9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30DFD94C2EEAB45F00F6D8C9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1F7A6CBB2EAF039D00D25078 /* PhoneCase */,
+			);
+			name = PhoneCase;
+			packageProductDependencies = (
+			);
+			productName = PhoneCase;
+			productReference = 1F7A6CB92EAF039D00D25078 /* PhoneCase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F7A6CD32EAF039E00D25078 /* PhoneCaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7A6CEC2EAF039E00D25078 /* Build configuration list for PBXNativeTarget "PhoneCaseTests" */;
+			buildPhases = (
+				1F7A6CD02EAF039E00D25078 /* Sources */,
+				1F7A6CD12EAF039E00D25078 /* Frameworks */,
+				1F7A6CD22EAF039E00D25078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F7A6CD62EAF039E00D25078 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1F7A6CD72EAF039E00D25078 /* PhoneCaseTests */,
+			);
+			name = PhoneCaseTests;
+			packageProductDependencies = (
+			);
+			productName = PhoneCaseTests;
+			productReference = 1F7A6CD42EAF039E00D25078 /* PhoneCaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F7A6CDD2EAF039E00D25078 /* PhoneCaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7A6CEF2EAF039E00D25078 /* Build configuration list for PBXNativeTarget "PhoneCaseUITests" */;
+			buildPhases = (
+				1F7A6CDA2EAF039E00D25078 /* Sources */,
+				1F7A6CDB2EAF039E00D25078 /* Frameworks */,
+				1F7A6CDC2EAF039E00D25078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F7A6CE02EAF039E00D25078 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1F7A6CE12EAF039E00D25078 /* PhoneCaseUITests */,
+			);
+			name = PhoneCaseUITests;
+			packageProductDependencies = (
+			);
+			productName = PhoneCaseUITests;
+			productReference = 1F7A6CDE2EAF039E00D25078 /* PhoneCaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		30DFD9462EEAB45F00F6D8C9 /* PhoneShell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DFD94F2EEAB45F00F6D8C9 /* Build configuration list for PBXNativeTarget "PhoneShell" */;
+			buildPhases = (
+				30DFD9422EEAB45F00F6D8C9 /* Headers */,
+				30DFD9432EEAB45F00F6D8C9 /* Sources */,
+				30DFD9442EEAB45F00F6D8C9 /* Frameworks */,
+				30DFD9452EEAB45F00F6D8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				30DFD9482EEAB45F00F6D8C9 /* PhoneShell */,
+			);
+			name = PhoneShell;
+			packageProductDependencies = (
+			);
+			productName = PhoneShellLib;
+			productReference = 30DFD9472EEAB45F00F6D8C9 /* PhoneShell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F7A6CB12EAF039D00D25078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					1F7A6CB82EAF039D00D25078 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					1F7A6CD32EAF039E00D25078 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1F7A6CB82EAF039D00D25078;
+					};
+					1F7A6CDD2EAF039E00D25078 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1F7A6CB82EAF039D00D25078;
+					};
+					30DFD9462EEAB45F00F6D8C9 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 1F7A6CB42EAF039D00D25078 /* Build configuration list for PBXProject "PhoneCase" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F7A6CB02EAF039D00D25078;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1F7A6CBA2EAF039D00D25078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F7A6CB82EAF039D00D25078 /* PhoneCase */,
+				1F7A6CD32EAF039E00D25078 /* PhoneCaseTests */,
+				1F7A6CDD2EAF039E00D25078 /* PhoneCaseUITests */,
+				30DFD9462EEAB45F00F6D8C9 /* PhoneShell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F7A6CB72EAF039D00D25078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7A6CD22EAF039E00D25078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7A6CDC2EAF039E00D25078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DFD9452EEAB45F00F6D8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F7A6CB52EAF039D00D25078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7A6CD02EAF039E00D25078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7A6CDA2EAF039E00D25078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DFD9432EEAB45F00F6D8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F7A6CD62EAF039E00D25078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F7A6CB82EAF039D00D25078 /* PhoneCase */;
+			targetProxy = 1F7A6CD52EAF039E00D25078 /* PBXContainerItemProxy */;
+		};
+		1F7A6CE02EAF039E00D25078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F7A6CB82EAF039D00D25078 /* PhoneCase */;
+			targetProxy = 1F7A6CDF2EAF039E00D25078 /* PBXContainerItemProxy */;
+		};
+		30DFD94C2EEAB45F00F6D8C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30DFD9462EEAB45F00F6D8C9 /* PhoneShell */;
+			targetProxy = 30DFD94B2EEAB45F00F6D8C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F7A6CE82EAF039E00D25078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhoneCase/PhoneCase.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78KU4HT8H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PhoneCase/Supporting Flies/Info.plist";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC权限";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "蓝牙权限";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "蓝牙权限旧";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/PhoneCase/Supporting\\\\ Flies/BLE/Framework/BleProtocol\"",
+					"\"$(PROJECT_DIR)/PhoneCase/Supporting\\\\ Flies/BLE/Framework\"",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ia.xa.PhoneCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F7A6CE92EAF039E00D25078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhoneCase/PhoneCase.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78KU4HT8H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PhoneCase/Supporting Flies/Info.plist";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC权限";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "蓝牙权限";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "蓝牙权限旧";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ia.xa.PhoneCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F7A6CEA2EAF039E00D25078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 937KGHAY9R;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F7A6CEB2EAF039E00D25078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 937KGHAY9R;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F7A6CED2EAF039E00D25078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 937KGHAY9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xt.PhoneCaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneCase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhoneCase";
+			};
+			name = Debug;
+		};
+		1F7A6CEE2EAF039E00D25078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 937KGHAY9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xt.PhoneCaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneCase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhoneCase";
+			};
+			name = Release;
+		};
+		1F7A6CF02EAF039E00D25078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 937KGHAY9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xt.PhoneCaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhoneCase;
+			};
+			name = Debug;
+		};
+		1F7A6CF12EAF039E00D25078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 937KGHAY9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xt.PhoneCaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhoneCase;
+			};
+			name = Release;
+		};
+		30DFD9502EEAB45F00F6D8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78KU4HT8H8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"\"$(PROJECT_DIR)/PhoneCase/Supporting\\\\ Flies/BLE/Framework/BleProtocol\"",
+					"\"$(PROJECT_DIR)/PhoneCase/Supporting\\\\ Flies/BLE/Framework\"",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = io.xa.PhoneShell;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		30DFD9512EEAB45F00F6D8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78KU4HT8H8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"\"$(PROJECT_DIR)/PhoneCase/Supporting\\\\ Flies/BLE/Framework/BleProtocol\"",
+					"\"$(PROJECT_DIR)/PhoneCase/Supporting\\\\ Flies/BLE/Framework\"",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework",
+					"$(PROJECT_DIR)/PhoneCase/Supporting\\ Flies/BLE/Framework/BleProtocol",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = io.xa.PhoneShell;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F7A6CB42EAF039D00D25078 /* Build configuration list for PBXProject "PhoneCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7A6CEA2EAF039E00D25078 /* Debug */,
+				1F7A6CEB2EAF039E00D25078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7A6CE72EAF039E00D25078 /* Build configuration list for PBXNativeTarget "PhoneCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7A6CE82EAF039E00D25078 /* Debug */,
+				1F7A6CE92EAF039E00D25078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7A6CEC2EAF039E00D25078 /* Build configuration list for PBXNativeTarget "PhoneCaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7A6CED2EAF039E00D25078 /* Debug */,
+				1F7A6CEE2EAF039E00D25078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7A6CEF2EAF039E00D25078 /* Build configuration list for PBXNativeTarget "PhoneCaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7A6CF02EAF039E00D25078 /* Debug */,
+				1F7A6CF12EAF039E00D25078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30DFD94F2EEAB45F00F6D8C9 /* Build configuration list for PBXNativeTarget "PhoneShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DFD9502EEAB45F00F6D8C9 /* Debug */,
+				30DFD9512EEAB45F00F6D8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F7A6CB12EAF039D00D25078 /* Project object */;
+}
