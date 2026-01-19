@@ -1,0 +1,24 @@
+source 'https://cdn.cocoapods.org'
+#source 'https://github.com/reown-com/reown-swift/blob/develop/reown-swift.podspec'
+
+platform :ios, '15.3'
+use_frameworks!
+
+target 'iosApp' do
+#  pod 'reown-swift/ReownAppKit', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/WalletConnectSign', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/WalletConnectUtils', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/WalletConnectRelay', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/WalletConnectNetworking', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/WalletConnectPairing', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/WalletConnectSigner', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/WalletConnectPush', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/WalletConnectJWT', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/WalletConnectKMS', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/JSONRPC', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/HTTPClient', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/Commons', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/ReownAppKitUI', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+#  pod 'reown-swift/ReownAppKitBackport', :git => 'https://github.com/reown-com/reown-swift.git', :tag => '1.0.4'
+
+end
